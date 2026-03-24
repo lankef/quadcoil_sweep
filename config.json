@@ -1,0 +1,39 @@
+{
+    "device_scaling_dict": {
+        "stellaris": {
+            "a": 1.2,
+            "d_cs": 1.4,
+            "d_cc": 0.4,
+            "k": 2.0,
+            "B_0": 9,
+            "ncoils": 5
+        },
+        "aries": {
+            "a": 1.7,
+            "d_cs": 1.5,
+            "d_cc": 0.8,
+            "k": 1.5,
+            "B_0": 5.7
+        },
+        "w7x": {
+            "a": 0.55,
+            "d_cs": 0.6,
+            "d_cc": 0.4,
+            "k": 1.0,
+            "B_0": 10.0,
+            "ncoils": 5
+        },
+        "squid_040925": {
+            "a": 1.78,
+            "d_cs": 2.2,
+            "d_cc": 1.2,
+            "k": 1.2,
+            "B_0": 5.0,
+            "ncoils": 4
+        }
+    },
+    "mpol_quadcoil": 8,
+    "ntor_quadcoil": 8,
+    "mpol_max_plasma": 4,
+    "ntor_max_plasma": 4
+}

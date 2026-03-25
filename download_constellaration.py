@@ -146,7 +146,7 @@ def run(run_config):
     # The output path differs depending on whether we are running locally or on
     # the cluster, and (on the cluster) whether this is a SLURM array job.
     project_dir = Path(__file__).parent.resolve()
-    SAVE_DIR = f"{project_dir}/../output_nfp=" + str(run_config.nfp)        
+    SAVE_DIR = f"{project_dir}/../output_constellaration_nfp=" + str(run_config.nfp)        
     makedirs(SAVE_DIR, exist_ok=True)
     print("Saving to", SAVE_DIR)
     # Dumping run info
